@@ -51,7 +51,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
-    pageTitle: 'Super Projects Page'
+    pageTitle: 'Super Duper Projects Page'
   });
 });
 
